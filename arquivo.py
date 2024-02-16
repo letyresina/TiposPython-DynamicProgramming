@@ -61,3 +61,7 @@ seq = [(1, 2, 3), (4, 5, 6), (7, 8, 9)]
 for a, b, c in seq:
     print('a={0}; b={1}, c={2}'.format(a, b, c))
 # Ou seja, o a da primeira tupla é 1, o a da segunda tupla é 4, o a da terceira tupla é 7 e assim sucessivamente
+
+# count - quantidade de vezes que um item aparece na lista/tupla
+a = (1, 2, 2, 2, 2, 3, 4, 2)
+print(a.count(2))
